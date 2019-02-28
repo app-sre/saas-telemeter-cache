@@ -1,0 +1,18 @@
+services:
+- hash: ignore
+  name: prometheus-telemeter-cache-uhc
+  path: /homeless-templates/prometheus-telemeter-cache-uhc.yaml
+  url: https://github.com/app-sre/saas-telemeter-cache-uhc
+  environments:
+  - name: production
+    parameters:
+      APPNAME: telemeter-cache-uhc
+      NAMESPACE: telemeter-cache-uhc-production
+      SERVICEMONITOR_TARGET_NAMESPACE: telemeter-production
+      SERVICEMONITOR_TARGET_SERVERNAME: prometheus-telemeter.telemeter-production.svc
+  - name: staging
+    parameters:
+      APPNAME: telemeter-cache-uhc
+      NAMESPACE: telemeter-cache-uhc-stage
+      SERVICEMONITOR_TARGET_NAMESPACE: telemeter-stage
+      SERVICEMONITOR_TARGET_SERVERNAME: prometheus-telemeter.telemeter-stage.svc

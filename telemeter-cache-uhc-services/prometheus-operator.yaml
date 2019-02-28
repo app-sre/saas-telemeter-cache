@@ -1,0 +1,6 @@
+services:
+- hash: ignore
+  name: prometheus-operator
+  path: /homeless-templates/prometheus-operator.yaml
+  url: https://github.com/app-sre/saas-telemeter-cache-uhc
+  hash_length: 7
