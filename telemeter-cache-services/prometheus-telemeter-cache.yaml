@@ -1,8 +1,8 @@
 services:
-- hash: ignore
+- hash: e92c2b2bf9fcbd30be19c692e4cc858ef34ec193
   name: prometheus-telemeter-cache
-  path: /homeless-templates/prometheus-telemeter-cache.yaml
-  url: https://github.com/app-sre/saas-telemeter-cache
+  path: /prometheus-telemeter-cache.yaml
+  url: https://github.com/app-sre/saas-telemeter-cache-manifests
   environments:
   - name: production
     parameters:
