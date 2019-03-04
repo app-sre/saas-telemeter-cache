@@ -1,7 +1,7 @@
 contexts:
 - data:
-    output_dir: telemeter-cache-uhc-processed
-    services_dir: telemeter-cache-uhc-services
-    templates_dir: telemeter-cache-uhc-templates
-  name: telemeter-cache-uhc
-current: telemeter-cache-uhc
+    output_dir: telemeter-cache-processed
+    services_dir: telemeter-cache-services
+    templates_dir: telemeter-cache-templates
+  name: telemeter-cache
+current: telemeter-cache

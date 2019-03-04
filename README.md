@@ -1,5 +1,5 @@
-# saas-telemeter-cache-uhc
+# saas-telemeter-cache
 
-CD for telemeter-cache-uhc
+CD for telemeter-cache
 
 Uses [saasherder](https://github.com/openshiftio/saasherder) to deploy to OpenShift.
