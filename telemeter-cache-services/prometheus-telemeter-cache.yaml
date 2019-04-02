@@ -1,5 +1,5 @@
 services:
-- hash: 660a56e105c674f4ef87dff80c2a1657a2f64bac
+- hash: 84ea5d60789bf03a46efe16627c830feca220e39
   name: prometheus-telemeter-cache
   path: /prometheus-telemeter-cache.yaml
   url: https://github.com/app-sre/saas-telemeter-cache-manifests
